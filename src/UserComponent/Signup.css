@@ -1,0 +1,127 @@
+.register-main {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+.register {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.register-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.register-logo img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.register-center {
+  text-align: center;
+}
+
+.register-center h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.register-center p {
+  margin-bottom: 2rem;
+}
+
+.register-input-div {
+  margin-bottom: 12px;
+  color: black;
+}
+
+.flex-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.pass-input-div {
+  position: relative;
+  color: black;
+}
+
+.pass-input-div input {
+  padding-right: 2rem;
+}
+
+.pass-input-div svg {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.register-center{
+  color: white;
+}
+
+.register-center h2{
+  font-size: 40px;
+}
+
+.register-center p{
+  font-size: 20px;
+}
+
+.register-center-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.terms-div {
+  display: flex;
+  align-items: center;
+}
+
+.terms-div input {
+  margin-right: 0.5rem;
+}
+
+.register-center-buttons {
+  display: flex;
+  justify-content: center;
+
+}
+
+.register-center-buttons button {
+  padding: 0.75rem 1.5rem;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-center-buttons button:hover {
+  background-color: green;
+}
